@@ -66,7 +66,7 @@ const uppyOptions = {
     },
     s3: {
       getKey: (req, filename) => {        
-        return "/output".concat(`/${filename}`);         
+        return filename;         
       },
       key: "AKIA47QXRZ3MUIQTOBXJ",
       secret: "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",
